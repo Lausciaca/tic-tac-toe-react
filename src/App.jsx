@@ -93,12 +93,12 @@ function App() {
       <section>
         {
           turn === TURNS.X && (
-            <h2 className='text-center text-red-500'>Player X turn</h2>
+            <h2 className='text-center text-blue-400'>Player X turn</h2>
           )
         }
         {
           turn === TURNS.O &&(
-            <h2 className='text-center text-blue-400'>Player O turn</h2>
+            <h2 className='text-center text-red-500'>Player O turn</h2>
           )
         }
       </section>
